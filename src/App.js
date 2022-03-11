@@ -108,13 +108,14 @@ const[timeoutid,updatetimeoutid]=useState();
     <Container>
 
 
+
       <Header>
         <AppNameComponent>
-          <Appicon src="/Hamburger.svg" alt="Logo"/>
+          <Appicon src={process.env.PUBLIC_URL + '/hamburger.svg'} alt="Logo"/>
           Recipe Finder
         </AppNameComponent>
         <SearchComponent>
-          <img src="/search-icon.svg" alt="Search Icon"/>
+          <img src={process.env.PUBLIC_URL + '/search-icon.svg'}  alt="Search Icon"/>
           <SearchInput type="text" placeholder='Search Recipe' onChange={onTextChange}/>
         </SearchComponent>
       </Header>
@@ -123,7 +124,7 @@ const[timeoutid,updatetimeoutid]=useState();
       <RecipeListContainer>
         {recipeList.length ? recipeList.map((recipeObj)=>(
             <Recipe recipeObj={recipeObj.recipe}/>
-        )): <PlaceHolder src="/Hamburger.svg" />}
+        )): <PlaceHolder src={process.env.PUBLIC_URL + "/hamburger.svg"} />}
       </RecipeListContainer>
 
 
