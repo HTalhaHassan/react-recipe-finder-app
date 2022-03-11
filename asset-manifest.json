@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-recipe-finder-app/static/css/main.e6c13ad2.css",
+    "main.js": "/react-recipe-finder-app/static/js/main.6985152f.js",
+    "index.html": "/react-recipe-finder-app/index.html",
+    "main.e6c13ad2.css.map": "/react-recipe-finder-app/static/css/main.e6c13ad2.css.map",
+    "main.6985152f.js.map": "/react-recipe-finder-app/static/js/main.6985152f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.6985152f.js"
+  ]
+}
